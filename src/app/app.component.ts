@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'Now hiring for the following chores!!';
-  //add chore here
+  // add chore here
   chore: Chores = {
     chore: 'Laundry',
     price: 1,
     person: 'Weldon',
-    day: 'Tuesday'}
+    day: 'Tuesday'};
 }
 
 export class Chores {
