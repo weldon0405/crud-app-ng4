@@ -24,11 +24,11 @@ const CHORES: Chores[] = [
 
 export class AppComponent {
   title = 'Now hiring for the following chores!!';
-  chores = CHORES;  
   chore: Chores = {
     chore: 'Laundry',
     price: 1.00,
     name: '',
     day: 'Tuesday'
   };
+  chores = CHORES; 
 }
