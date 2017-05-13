@@ -4,14 +4,15 @@
 <h2>
   <div><label>Chore: </label>{{chore.chore}}</div>
   <div><label>Price: </label>${{chore.price}}</div>
+  <div><label>Day: </label>{{chore.day}}</div>
   <div>
     <label>Name: </label>
     <input [(ngModel)]="chore.name" placeholder="name">
   </div>
-  <div><label>Day: </label>{{chore.day}}</div>
 </h2>
-<ul class="heroes">
+<h2>My Chores</h2>
+<ul class="chores">
   <li *ngFor="let chore of chores">
-    <span class="badge">{{chore.chore}}</span>${{chore.price}}{{chore.day}}
+    <span class="badge">{{chore.chore}}</span> ${{chore.price}} {{chore.day}}
   </li>
 </ul>
