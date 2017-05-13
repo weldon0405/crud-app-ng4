@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+<<<<<<< HEAD
 export class Chores {
   chore: string;
   price: number;
@@ -16,11 +17,14 @@ const CHORES: Chores[] = [
   { chore: 'rake leaves', price: 1, name: '', day: 'Saturday' }
 ];
 
+=======
+>>>>>>> 5e4cb5e1ceb7537dedef1c76b37157e1c9c0fe29
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+<<<<<<< HEAD
 
 export class AppComponent {
   title = 'Now hiring for the following chores!!';
@@ -35,3 +39,21 @@ export class AppComponent {
 }
 
 
+=======
+export class AppComponent {
+  title = 'Now hiring for the following chores!!';
+  //add chore here
+  chore: Chores = {
+    chore: 'Laundry',
+    price: 1,
+    person: 'Weldon',
+    day: 'Tuesday'}
+}
+
+export class Chores {
+  chore: string;
+  price: number;
+  person: string;
+  day: string;
+}
+>>>>>>> 5e4cb5e1ceb7537dedef1c76b37157e1c9c0fe29
