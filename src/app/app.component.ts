@@ -8,12 +8,12 @@ export class Chores {
 }
 
 const CHORES: Chores[] = [
-  { chore: "wash dishes", price: 1, name: "", day: "Monday" },
-  { chore: "dust living room", price: 1, name: "", day: "Sunday" },
-  { chore: "dust play room", price: 1, name: "", day: "Wednesday" },
-  { chore: "vacuum computer room", price: 1, name: "", day: "Thursday" },
-  { chore: "mow grass", price: 1, name: "", day: "Saturday" },
-  { chore: "rake leaves", price: 1, name: "", day: "Saturday" }
+  { chore: 'wash dishes', price: 1, name: '', day: 'Monday' },
+  { chore: 'dust living room', price: 1, name: '', day: 'Sunday' },
+  { chore: 'dust play room', price: 1, name: '', day: 'Wednesday' },
+  { chore: 'vacuum computer room', price: 1, name: '', day: 'Thursday' },
+  { chore: 'mow grass', price: 1, name: '', day: 'Saturday' },
+  { chore: 'rake leaves', price: 1, name: '', day: 'Saturday' }
 ];
 
 @Component({
