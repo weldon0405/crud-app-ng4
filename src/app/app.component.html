@@ -2,8 +2,16 @@
   {{title}}
 </h1>
 <h2>
-  {{chore.chore}}
-  {{chore.price}}
-  {{chore.person}}
-  {{chore.day}}
+  <div><label>Chore: </label>{{chore.chore}}</div>
+  <div><label>Price: </label>${{chore.price}}</div>
+  <div>
+    <label>Name: </label>
+    <input [(ngModel)]="chore.name" placeholder="name">
+  </div>
+  <div><label>Day: </label>{{chore.day}}</div>
 </h2>
+<ul class="heroes">
+  <li *ngFor="let chore of chores">
+    <span class="badge">{{chore.chore}}</span>${{chore.price}}{{chore.day}}
+  </li>
+</ul>
